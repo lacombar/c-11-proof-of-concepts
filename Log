@@ -1,0 +1,805 @@
+
+chdir(/data/opt/Linux/x86_64/vim/share/vim)
+fchdir() to previous dir
+could not source "$VIM/vimrc"
+chdir(/src/misc)
+fchdir() to previous dir
+sourcing "$HOME/.vimrc"
+Searching for "colors/sienna.vim" in "/src/misc/.vim,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/colors/sienna.vim"
+chdir(/src/misc/.vim/colors)
+fchdir() to previous dir
+line 5: sourcing "/src/misc/.vim/colors/sienna.vim"
+finished sourcing /src/misc/.vim/colors/sienna.vim
+continuing in /src/misc/.vimrc
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 7: sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/syntax/syntax.vim"
+Searching for "syntax/synload.vim" in "/src/misc/.vim,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/syntax/synload.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/syntax/synload.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vim74/syntax/synload.vim"
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 19: sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/syntax/synload.vim"
+Searching for "colors/sienna.vim" in "/src/misc/.vim,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/colors/sienna.vim"
+chdir(/src/misc/.vim/colors)
+fchdir() to previous dir
+line 19: sourcing "/src/misc/.vim/colors/sienna.vim"
+Searching for "syntax/syncolor.vim" in "/src/misc/.vim,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/syntax/syncolor.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vim74/syntax/syncolor.vim"
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 11: sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/syntax/syncolor.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/syntax/syncolor.vim
+continuing in /home/al/.vim/colors/sienna.vim
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/src/misc/.vim/after/syntax/syncolor.vim"
+Searching for "syntax/syncolor.vim" in "/src/misc/.vim,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/syntax/syncolor.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vim74/syntax/syncolor.vim"
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 13: sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/syntax/syncolor.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/syntax/syncolor.vim
+continuing in /home/al/.vim/colors/sienna.vim
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/src/misc/.vim/after/syntax/syncolor.vim"
+finished sourcing /src/misc/.vim/colors/sienna.vim
+continuing in /data/opt/Linux/x86_64/vim/share/vim/vim74/syntax/synload.vim
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/syntax/synload.vim
+continuing in /data/opt/Linux/x86_64/vim/share/vim/vim74/syntax/syntax.vim
+Searching for "filetype.vim" in "/src/misc/.vim,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/filetype.vim"
+chdir(/src/misc/.vim)
+fchdir() to previous dir
+line 25: sourcing "/src/misc/.vim/filetype.vim"
+finished sourcing /src/misc/.vim/filetype.vim
+continuing in /data/opt/Linux/x86_64/vim/share/vim/vim74/syntax/syntax.vim
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/filetype.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vim74/filetype.vim"
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74)
+fchdir() to previous dir
+line 25: sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/filetype.vim"
+Searching for "ftdetect/*.vim" in "/src/misc/.vim,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/ftdetect/*.vim"
+chdir(/src/misc/.vim/ftdetect)
+fchdir() to previous dir
+line 2713: sourcing "/src/misc/.vim/ftdetect/UltiSnips.vim"
+finished sourcing /src/misc/.vim/ftdetect/UltiSnips.vim
+continuing in /data/opt/Linux/x86_64/vim/share/vim/vim74/filetype.vim
+chdir(/src/misc/.vim/ftdetect)
+fchdir() to previous dir
+line 2713: sourcing "/src/misc/.vim/ftdetect/snippets.vim"
+finished sourcing /src/misc/.vim/ftdetect/snippets.vim
+continuing in /data/opt/Linux/x86_64/vim/share/vim/vim74/filetype.vim
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/ftdetect/*.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vim74/ftdetect/*.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/src/misc/.vim/after/ftdetect/*.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/filetype.vim
+continuing in /data/opt/Linux/x86_64/vim/share/vim/vim74/syntax/syntax.vim
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after/filetype.vim"
+Searching for "/src/misc/.vim/after/filetype.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/syntax/syntax.vim
+continuing in /src/misc/.vimrc
+Searching for "filetype.vim" in "/src/misc/.vim,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/filetype.vim"
+chdir(/src/misc/.vim)
+fchdir() to previous dir
+line 16: sourcing "/src/misc/.vim/filetype.vim"
+finished sourcing /src/misc/.vim/filetype.vim
+continuing in /src/misc/.vimrc
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/filetype.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vim74/filetype.vim"
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74)
+fchdir() to previous dir
+line 16: sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/filetype.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/filetype.vim
+continuing in /src/misc/.vimrc
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after/filetype.vim"
+Searching for "/src/misc/.vim/after/filetype.vim"
+Searching for "ftplugin.vim" in "/src/misc/.vim,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/ftplugin.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/ftplugin.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vim74/ftplugin.vim"
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74)
+fchdir() to previous dir
+line 16: sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/ftplugin.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/ftplugin.vim
+continuing in /src/misc/.vimrc
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after/ftplugin.vim"
+Searching for "/src/misc/.vim/after/ftplugin.vim"
+Searching for "indent.vim" in "/src/misc/.vim,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/indent.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/indent.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vim74/indent.vim"
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74)
+fchdir() to previous dir
+line 16: sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/indent.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/indent.vim
+continuing in /src/misc/.vimrc
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after/indent.vim"
+Searching for "/src/misc/.vim/after/indent.vim"
+Searching for "autoload/pathogen.vim" in "/src/misc/.vim,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/autoload/pathogen.vim"
+chdir(/src/misc/.vim/autoload)
+fchdir() to previous dir
+line 141: sourcing "/src/misc/.vim/autoload/pathogen.vim"
+finished sourcing /src/misc/.vim/autoload/pathogen.vim
+continuing in /src/misc/.vimrc
+Searching for "ftoff.vim" in "/src/misc/.vim,/src/misc/.vim/bundle/YouCompleteMe,/src/misc/.vim/bundle/file-line,/src/misc/.vim/bundle/vim-delimitMate,/src/misc/.vim/bundle/vim-multiple-cursors,/src/misc/.vim/bundle/vim-snippets,/src/misc/.vim/bundle/vim-ultisnips,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/bundle/vim-ultisnips/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/ftoff.vim"
+Searching for "/src/misc/.vim/bundle/YouCompleteMe/ftoff.vim"
+Searching for "/src/misc/.vim/bundle/file-line/ftoff.vim"
+Searching for "/src/misc/.vim/bundle/vim-delimitMate/ftoff.vim"
+Searching for "/src/misc/.vim/bundle/vim-multiple-cursors/ftoff.vim"
+Searching for "/src/misc/.vim/bundle/vim-snippets/ftoff.vim"
+Searching for "/src/misc/.vim/bundle/vim-ultisnips/ftoff.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/ftoff.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vim74/ftoff.vim"
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74)
+fchdir() to previous dir
+line 2: sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/ftoff.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/ftoff.vim
+continuing in function pathogen#infect..pathogen#cycle_filetype
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after/ftoff.vim"
+Searching for "/src/misc/.vim/bundle/vim-ultisnips/after/ftoff.vim"
+Searching for "/src/misc/.vim/after/ftoff.vim"
+Searching for "filetype.vim" in "/src/misc/.vim,/src/misc/.vim/bundle/YouCompleteMe,/src/misc/.vim/bundle/file-line,/src/misc/.vim/bundle/vim-delimitMate,/src/misc/.vim/bundle/vim-multiple-cursors,/src/misc/.vim/bundle/vim-snippets,/src/misc/.vim/bundle/vim-ultisnips,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/bundle/vim-ultisnips/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/filetype.vim"
+chdir(/src/misc/.vim)
+fchdir() to previous dir
+line 3: sourcing "/src/misc/.vim/filetype.vim"
+finished sourcing /src/misc/.vim/filetype.vim
+continuing in function pathogen#infect..pathogen#cycle_filetype
+Searching for "/src/misc/.vim/bundle/YouCompleteMe/filetype.vim"
+Searching for "/src/misc/.vim/bundle/file-line/filetype.vim"
+Searching for "/src/misc/.vim/bundle/vim-delimitMate/filetype.vim"
+Searching for "/src/misc/.vim/bundle/vim-multiple-cursors/filetype.vim"
+Searching for "/src/misc/.vim/bundle/vim-snippets/filetype.vim"
+Searching for "/src/misc/.vim/bundle/vim-ultisnips/filetype.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/filetype.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vim74/filetype.vim"
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74)
+fchdir() to previous dir
+line 3: sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/filetype.vim"
+Searching for "ftdetect/*.vim" in "/src/misc/.vim,/src/misc/.vim/bundle/YouCompleteMe,/src/misc/.vim/bundle/file-line,/src/misc/.vim/bundle/vim-delimitMate,/src/misc/.vim/bundle/vim-multiple-cursors,/src/misc/.vim/bundle/vim-snippets,/src/misc/.vim/bundle/vim-ultisnips,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/bundle/vim-ultisnips/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/ftdetect/*.vim"
+chdir(/src/misc/.vim/ftdetect)
+fchdir() to previous dir
+line 2713: sourcing "/src/misc/.vim/ftdetect/UltiSnips.vim"
+finished sourcing /src/misc/.vim/ftdetect/UltiSnips.vim
+continuing in /data/opt/Linux/x86_64/vim/share/vim/vim74/filetype.vim
+chdir(/src/misc/.vim/ftdetect)
+fchdir() to previous dir
+line 2713: sourcing "/src/misc/.vim/ftdetect/snippets.vim"
+finished sourcing /src/misc/.vim/ftdetect/snippets.vim
+continuing in /data/opt/Linux/x86_64/vim/share/vim/vim74/filetype.vim
+Searching for "/src/misc/.vim/bundle/YouCompleteMe/ftdetect/*.vim"
+Searching for "/src/misc/.vim/bundle/file-line/ftdetect/*.vim"
+Searching for "/src/misc/.vim/bundle/vim-delimitMate/ftdetect/*.vim"
+Searching for "/src/misc/.vim/bundle/vim-multiple-cursors/ftdetect/*.vim"
+Searching for "/src/misc/.vim/bundle/vim-snippets/ftdetect/*.vim"
+Searching for "/src/misc/.vim/bundle/vim-ultisnips/ftdetect/*.vim"
+chdir(/src/misc/.vim/bundle/vim-ultisnips/ftdetect)
+fchdir() to previous dir
+line 2713: sourcing "/src/misc/.vim/bundle/vim-ultisnips/ftdetect/UltiSnips.vim"
+finished sourcing /src/misc/.vim/bundle/vim-ultisnips/ftdetect/UltiSnips.vim
+continuing in /data/opt/Linux/x86_64/vim/share/vim/vim74/filetype.vim
+chdir(/src/misc/.vim/bundle/vim-ultisnips/ftdetect)
+fchdir() to previous dir
+line 2713: sourcing "/src/misc/.vim/bundle/vim-ultisnips/ftdetect/snippets.vim"
+finished sourcing /src/misc/.vim/bundle/vim-ultisnips/ftdetect/snippets.vim
+continuing in /data/opt/Linux/x86_64/vim/share/vim/vim74/filetype.vim
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/ftdetect/*.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vim74/ftdetect/*.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/src/misc/.vim/bundle/vim-ultisnips/after/ftdetect/*.vim"
+Searching for "/src/misc/.vim/after/ftdetect/*.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/filetype.vim
+continuing in function pathogen#infect..pathogen#cycle_filetype
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after/filetype.vim"
+Searching for "/src/misc/.vim/bundle/vim-ultisnips/after/filetype.vim"
+Searching for "/src/misc/.vim/after/filetype.vim"
+finished sourcing $HOME/.vimrc
+could not source ".vimrc"
+could not source ".exrc"
+Searching for "plugin/**/*.vim" in "/src/misc/.vim,/src/misc/.vim/bundle/YouCompleteMe,/src/misc/.vim/bundle/file-line,/src/misc/.vim/bundle/vim-delimitMate,/src/misc/.vim/bundle/vim-multiple-cursors,/src/misc/.vim/bundle/vim-snippets,/src/misc/.vim/bundle/vim-ultisnips,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/bundle/vim-ultisnips/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/plugin/**/*.vim"
+chdir(/src/misc/.vim/plugin)
+fchdir() to previous dir
+sourcing "/src/misc/.vim/plugin/gtags-cscope.vim"
+Calling shell to execute: "(global -pq) > /tmp/vbDtSwa/0"
+finished sourcing /src/misc/.vim/plugin/gtags-cscope.vim
+chdir(/src/misc/.vim/plugin)
+fchdir() to previous dir
+sourcing "/src/misc/.vim/plugin/localvimrc.vim"
+finished sourcing /src/misc/.vim/plugin/localvimrc.vim
+chdir(/src/misc/.vim/plugin/vim-mpage/plugin)
+fchdir() to previous dir
+sourcing "/src/misc/.vim/plugin/vim-mpage/plugin/mpage.vim"
+Searching for "autoload/mpage.vim" in "/src/misc/.vim,/src/misc/.vim/bundle/YouCompleteMe,/src/misc/.vim/bundle/file-line,/src/misc/.vim/bundle/vim-delimitMate,/src/misc/.vim/bundle/vim-multiple-cursors,/src/misc/.vim/bundle/vim-snippets,/src/misc/.vim/bundle/vim-ultisnips,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/bundle/vim-ultisnips/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/autoload/mpage.vim"
+Searching for "/src/misc/.vim/bundle/YouCompleteMe/autoload/mpage.vim"
+Searching for "/src/misc/.vim/bundle/file-line/autoload/mpage.vim"
+Searching for "/src/misc/.vim/bundle/vim-delimitMate/autoload/mpage.vim"
+Searching for "/src/misc/.vim/bundle/vim-multiple-cursors/autoload/mpage.vim"
+Searching for "/src/misc/.vim/bundle/vim-snippets/autoload/mpage.vim"
+Searching for "/src/misc/.vim/bundle/vim-ultisnips/autoload/mpage.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/autoload/mpage.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vim74/autoload/mpage.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after/autoload/mpage.vim"
+Searching for "/src/misc/.vim/bundle/vim-ultisnips/after/autoload/mpage.vim"
+Searching for "/src/misc/.vim/after/autoload/mpage.vim"
+not found in 'runtimepath': "autoload/mpage.vim"
+finished sourcing /src/misc/.vim/plugin/vim-mpage/plugin/mpage.vim
+chdir(/src/misc/.vim/plugin/vim-pathogen/autoload)
+fchdir() to previous dir
+sourcing "/src/misc/.vim/plugin/vim-pathogen/autoload/pathogen.vim"
+finished sourcing /src/misc/.vim/plugin/vim-pathogen/autoload/pathogen.vim
+chdir(/src/misc/.vim/plugin/vim-trailing-whitespace/plugin)
+fchdir() to previous dir
+sourcing "/src/misc/.vim/plugin/vim-trailing-whitespace/plugin/trailing-whitespace.vim"
+finished sourcing /src/misc/.vim/plugin/vim-trailing-whitespace/plugin/trailing-whitespace.vim
+Searching for "/src/misc/.vim/bundle/YouCompleteMe/plugin/**/*.vim"
+chdir(/src/misc/.vim/bundle/YouCompleteMe/plugin)
+fchdir() to previous dir
+sourcing "/src/misc/.vim/bundle/YouCompleteMe/plugin/youcompleteme.vim"
+finished sourcing /src/misc/.vim/bundle/YouCompleteMe/plugin/youcompleteme.vim
+Searching for "/src/misc/.vim/bundle/file-line/plugin/**/*.vim"
+chdir(/src/misc/.vim/bundle/file-line/plugin)
+fchdir() to previous dir
+sourcing "/src/misc/.vim/bundle/file-line/plugin/file_line.vim"
+finished sourcing /src/misc/.vim/bundle/file-line/plugin/file_line.vim
+Searching for "/src/misc/.vim/bundle/vim-delimitMate/plugin/**/*.vim"
+chdir(/src/misc/.vim/bundle/vim-delimitMate/plugin)
+fchdir() to previous dir
+sourcing "/src/misc/.vim/bundle/vim-delimitMate/plugin/delimitMate.vim"
+Searching for "autoload/delimitMate.vim" in "/src/misc/.vim,/src/misc/.vim/bundle/YouCompleteMe,/src/misc/.vim/bundle/file-line,/src/misc/.vim/bundle/vim-delimitMate,/src/misc/.vim/bundle/vim-multiple-cursors,/src/misc/.vim/bundle/vim-snippets,/src/misc/.vim/bundle/vim-ultisnips,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/bundle/vim-ultisnips/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/autoload/delimitMate.vim"
+Searching for "/src/misc/.vim/bundle/YouCompleteMe/autoload/delimitMate.vim"
+Searching for "/src/misc/.vim/bundle/file-line/autoload/delimitMate.vim"
+Searching for "/src/misc/.vim/bundle/vim-delimitMate/autoload/delimitMate.vim"
+chdir(/src/misc/.vim/bundle/vim-delimitMate/autoload)
+fchdir() to previous dir
+line 1: sourcing "/src/misc/.vim/bundle/vim-delimitMate/autoload/delimitMate.vim"
+finished sourcing /src/misc/.vim/bundle/vim-delimitMate/autoload/delimitMate.vim
+continuing in function <SNR>21_setup..<SNR>21_init..<SNR>21_option_init..<SNR>21_set
+No matching autocommands
+finished sourcing /src/misc/.vim/bundle/vim-delimitMate/plugin/delimitMate.vim
+Searching for "/src/misc/.vim/bundle/vim-multiple-cursors/plugin/**/*.vim"
+chdir(/src/misc/.vim/bundle/vim-multiple-cursors/plugin)
+fchdir() to previous dir
+sourcing "/src/misc/.vim/bundle/vim-multiple-cursors/plugin/multiple_cursors.vim"
+finished sourcing /src/misc/.vim/bundle/vim-multiple-cursors/plugin/multiple_cursors.vim
+Searching for "/src/misc/.vim/bundle/vim-snippets/plugin/**/*.vim"
+chdir(/src/misc/.vim/bundle/vim-snippets/plugin)
+fchdir() to previous dir
+sourcing "/src/misc/.vim/bundle/vim-snippets/plugin/vimsnippets.vim"
+finished sourcing /src/misc/.vim/bundle/vim-snippets/plugin/vimsnippets.vim
+Searching for "/src/misc/.vim/bundle/vim-ultisnips/plugin/**/*.vim"
+chdir(/src/misc/.vim/bundle/vim-ultisnips/plugin)
+fchdir() to previous dir
+sourcing "/src/misc/.vim/bundle/vim-ultisnips/plugin/UltiSnips.vim"
+Searching for "autoload/UltiSnips/map_keys.vim" in "/src/misc/.vim,/src/misc/.vim/bundle/YouCompleteMe,/src/misc/.vim/bundle/file-line,/src/misc/.vim/bundle/vim-delimitMate,/src/misc/.vim/bundle/vim-multiple-cursors,/src/misc/.vim/bundle/vim-snippets,/src/misc/.vim/bundle/vim-ultisnips,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/bundle/vim-ultisnips/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/autoload/UltiSnips/map_keys.vim"
+Searching for "/src/misc/.vim/bundle/YouCompleteMe/autoload/UltiSnips/map_keys.vim"
+Searching for "/src/misc/.vim/bundle/file-line/autoload/UltiSnips/map_keys.vim"
+Searching for "/src/misc/.vim/bundle/vim-delimitMate/autoload/UltiSnips/map_keys.vim"
+Searching for "/src/misc/.vim/bundle/vim-multiple-cursors/autoload/UltiSnips/map_keys.vim"
+Searching for "/src/misc/.vim/bundle/vim-snippets/autoload/UltiSnips/map_keys.vim"
+Searching for "/src/misc/.vim/bundle/vim-ultisnips/autoload/UltiSnips/map_keys.vim"
+chdir(/src/misc/.vim/bundle/vim-ultisnips/autoload/UltiSnips)
+fchdir() to previous dir
+line 68: sourcing "/src/misc/.vim/bundle/vim-ultisnips/autoload/UltiSnips/map_keys.vim"
+Searching for "autoload/UltiSnips/bootstrap.vim" in "/src/misc/.vim,/src/misc/.vim/bundle/YouCompleteMe,/src/misc/.vim/bundle/file-line,/src/misc/.vim/bundle/vim-delimitMate,/src/misc/.vim/bundle/vim-multiple-cursors,/src/misc/.vim/bundle/vim-snippets,/src/misc/.vim/bundle/vim-ultisnips,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/bundle/vim-ultisnips/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/autoload/UltiSnips/bootstrap.vim"
+Searching for "/src/misc/.vim/bundle/YouCompleteMe/autoload/UltiSnips/bootstrap.vim"
+Searching for "/src/misc/.vim/bundle/file-line/autoload/UltiSnips/bootstrap.vim"
+Searching for "/src/misc/.vim/bundle/vim-delimitMate/autoload/UltiSnips/bootstrap.vim"
+Searching for "/src/misc/.vim/bundle/vim-multiple-cursors/autoload/UltiSnips/bootstrap.vim"
+Searching for "/src/misc/.vim/bundle/vim-snippets/autoload/UltiSnips/bootstrap.vim"
+Searching for "/src/misc/.vim/bundle/vim-ultisnips/autoload/UltiSnips/bootstrap.vim"
+chdir(/src/misc/.vim/bundle/vim-ultisnips/autoload/UltiSnips)
+fchdir() to previous dir
+line 1: sourcing "/src/misc/.vim/bundle/vim-ultisnips/autoload/UltiSnips/bootstrap.vim"
+finished sourcing /src/misc/.vim/bundle/vim-ultisnips/autoload/UltiSnips/bootstrap.vim
+continuing in /home/al/.vim/bundle/vim-ultisnips/autoload/UltiSnips/map_keys.vim
+finished sourcing /src/misc/.vim/bundle/vim-ultisnips/autoload/UltiSnips/map_keys.vim
+continuing in /home/al/.vim/bundle/vim-ultisnips/plugin/UltiSnips.vim
+finished sourcing /src/misc/.vim/bundle/vim-ultisnips/plugin/UltiSnips.vim
+chdir(/src/misc/.vim/bundle/vim-ultisnips/plugin)
+fchdir() to previous dir
+sourcing "/src/misc/.vim/bundle/vim-ultisnips/plugin/snipMate_compatibility.vim"
+finished sourcing /src/misc/.vim/bundle/vim-ultisnips/plugin/snipMate_compatibility.vim
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/plugin/**/*.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/**/*.vim"
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/getscriptPlugin.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/getscriptPlugin.vim
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/gzip.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/gzip.vim
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/matchparen.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/matchparen.vim
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/netrwPlugin.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/netrwPlugin.vim
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/rrhelper.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/rrhelper.vim
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/spellfile.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/spellfile.vim
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/tarPlugin.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/tarPlugin.vim
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/tohtml.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/tohtml.vim
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/vimballPlugin.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/vimballPlugin.vim
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/zipPlugin.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/plugin/zipPlugin.vim
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after/plugin/**/*.vim"
+Searching for "/src/misc/.vim/bundle/vim-ultisnips/after/plugin/**/*.vim"
+chdir(/src/misc/.vim/bundle/vim-ultisnips/after/plugin)
+fchdir() to previous dir
+sourcing "/src/misc/.vim/bundle/vim-ultisnips/after/plugin/UltiSnips_after.vim"
+finished sourcing /src/misc/.vim/bundle/vim-ultisnips/after/plugin/UltiSnips_after.vim
+Searching for "/src/misc/.vim/after/plugin/**/*.vim"
+Reading viminfo file "/src/misc/.viminfo" info oldfiles
+Opening the X display failed
+"foo.cc:4" [New File]
+Reading viminfo file "/src/misc/.viminfo" marks
+Executing BufNewFile Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Searching for "scripts.vim" in "/src/misc/.vim,/src/misc/.vim/bundle/YouCompleteMe,/src/misc/.vim/bundle/file-line,/src/misc/.vim/bundle/vim-delimitMate,/src/misc/.vim/bundle/vim-multiple-cursors,/src/misc/.vim/bundle/vim-snippets,/src/misc/.vim/bundle/vim-ultisnips,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/bundle/vim-ultisnips/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/scripts.vim"
+Searching for "/src/misc/.vim/bundle/YouCompleteMe/scripts.vim"
+Searching for "/src/misc/.vim/bundle/file-line/scripts.vim"
+Searching for "/src/misc/.vim/bundle/vim-delimitMate/scripts.vim"
+Searching for "/src/misc/.vim/bundle/vim-multiple-cursors/scripts.vim"
+Searching for "/src/misc/.vim/bundle/vim-snippets/scripts.vim"
+Searching for "/src/misc/.vim/bundle/vim-ultisnips/scripts.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/scripts.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vim74/scripts.vim"
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74)
+fchdir() to previous dir
+line 0: sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/scripts.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/scripts.vim
+continuing in BufNewFile Auto commands for "*"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after/scripts.vim"
+Searching for "/src/misc/.vim/bundle/vim-ultisnips/after/scripts.vim"
+Searching for "/src/misc/.vim/after/scripts.vim"
+Executing BufNewFile Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf conf | endif
+
+Executing BufNewFile Auto commands for "*"
+autocommand if !exists('b:delimitMate_was_here') |   call <SID>setup() |   let b:delimitMate_was_here = 1 | endif
+
+No matching autocommands
+No matching autocommands
+Executing BufWinEnter Auto commands for "*"
+autocommand call s:LocalVimRC()
+
+Executing BufWinEnter Auto commands for "*"
+autocommand if ShouldMatchWhitespace() | match ExtraWhitespace /\s\+$/ | endif
+
+Executing BufEnter Auto commands for "*"
+autocommand if !exists('b:delimitMate_was_here') |   call <SID>setup() |   let b:delimitMate_was_here = 1 | endif
+
+Executing BufEnter Auto commands for "*"
+autocommand sil call s:LocalBrowse(expand("<amatch>"))
+
+chdir(/src/misc/c++11)
+fchdir() to previous dir
+"functor.cc:3" [New File]
+Reading viminfo file "/src/misc/.viminfo" marks
+Executing BufNewFile Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Searching for "scripts.vim" in "/src/misc/.vim,/src/misc/.vim/bundle/YouCompleteMe,/src/misc/.vim/bundle/file-line,/src/misc/.vim/bundle/vim-delimitMate,/src/misc/.vim/bundle/vim-multiple-cursors,/src/misc/.vim/bundle/vim-snippets,/src/misc/.vim/bundle/vim-ultisnips,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/bundle/vim-ultisnips/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/scripts.vim"
+Searching for "/src/misc/.vim/bundle/YouCompleteMe/scripts.vim"
+Searching for "/src/misc/.vim/bundle/file-line/scripts.vim"
+Searching for "/src/misc/.vim/bundle/vim-delimitMate/scripts.vim"
+Searching for "/src/misc/.vim/bundle/vim-multiple-cursors/scripts.vim"
+Searching for "/src/misc/.vim/bundle/vim-snippets/scripts.vim"
+Searching for "/src/misc/.vim/bundle/vim-ultisnips/scripts.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/scripts.vim"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vim74/scripts.vim"
+chdir(/data/opt/Linux/x86_64/vim/share/vim/vim74)
+fchdir() to previous dir
+line 0: sourcing "/data/opt/Linux/x86_64/vim/share/vim/vim74/scripts.vim"
+finished sourcing /data/opt/Linux/x86_64/vim/share/vim/vim74/scripts.vim
+continuing in BufNewFile Auto commands for "*"
+Searching for "/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after/scripts.vim"
+Searching for "/src/misc/.vim/bundle/vim-ultisnips/after/scripts.vim"
+Searching for "/src/misc/.vim/after/scripts.vim"
+Executing BufNewFile Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf conf | endif
+
+Executing BufNewFile Auto commands for "*"
+autocommand if !exists('b:delimitMate_was_here') |   call <SID>setup() |   let b:delimitMate_was_here = 1 | endif
+
+No matching autocommands
+Executing BufWinEnter Auto commands for "*"
+autocommand call s:LocalVimRC()
+
+Executing BufWinEnter Auto commands for "*"
+autocommand if ShouldMatchWhitespace() | match ExtraWhitespace /\s\+$/ | endif
+
+Executing VimEnter Auto commands for "*"
+autocommand call youcompleteme#Enable()
+
+Searching for "autoload/youcompleteme.vim" in "/src/misc/.vim,/src/misc/.vim/bundle/YouCompleteMe,/src/misc/.vim/bundle/file-line,/src/misc/.vim/bundle/vim-delimitMate,/src/misc/.vim/bundle/vim-multiple-cursors,/src/misc/.vim/bundle/vim-snippets,/src/misc/.vim/bundle/vim-ultisnips,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/bundle/vim-ultisnips/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/autoload/youcompleteme.vim"
+Searching for "/src/misc/.vim/bundle/YouCompleteMe/autoload/youcompleteme.vim"
+chdir(/src/misc/.vim/bundle/YouCompleteMe/autoload)
+fchdir() to previous dir
+line 0: sourcing "/src/misc/.vim/bundle/YouCompleteMe/autoload/youcompleteme.vim"
+finished sourcing /src/misc/.vim/bundle/YouCompleteMe/autoload/youcompleteme.vim
+continuing in VimEnter Auto commands for "*"
+Executing VimEnter Auto commands for "*"
+autocommand call s:startup()
+
+0
+Executing VimEnter Auto commands for "*"
+autocommand sil call s:VimEnter(expand("<amatch>"))
+
+Executing CursorMoved Auto commands for "*"
+autocommand call UltiSnips#CursorMoved()
+
+Searching for "autoload/UltiSnips.vim" in "/src/misc/.vim,/src/misc/.vim/bundle/YouCompleteMe,/src/misc/.vim/bundle/file-line,/src/misc/.vim/bundle/vim-delimitMate,/src/misc/.vim/bundle/vim-multiple-cursors,/src/misc/.vim/bundle/vim-snippets,/src/misc/.vim/bundle/vim-ultisnips,/data/opt/Linux/x86_64/vim/share/vim/vimfiles,/data/opt/Linux/x86_64/vim/share/vim/vim74,/data/opt/Linux/x86_64/vim/share/vim/vimfiles/after,/src/misc/.vim/bundle/vim-ultisnips/after,/src/misc/.vim/after"
+Searching for "/src/misc/.vim/autoload/UltiSnips.vim"
+Searching for "/src/misc/.vim/bundle/YouCompleteMe/autoload/UltiSnips.vim"
+Searching for "/src/misc/.vim/bundle/file-line/autoload/UltiSnips.vim"
+Searching for "/src/misc/.vim/bundle/vim-delimitMate/autoload/UltiSnips.vim"
+Searching for "/src/misc/.vim/bundle/vim-multiple-cursors/autoload/UltiSnips.vim"
+Searching for "/src/misc/.vim/bundle/vim-snippets/autoload/UltiSnips.vim"
+Searching for "/src/misc/.vim/bundle/vim-ultisnips/autoload/UltiSnips.vim"
+chdir(/src/misc/.vim/bundle/vim-ultisnips/autoload)
+fchdir() to previous dir
+line 0: sourcing "/src/misc/.vim/bundle/vim-ultisnips/autoload/UltiSnips.vim"
+finished sourcing /src/misc/.vim/bundle/vim-ultisnips/autoload/UltiSnips.vim
+continuing in CursorMoved Auto commands for "*"
+Executing CursorMoved Auto commands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing CursorMoved Auto commands for "*"
+autocommand call s:OnCursorMovedNormalMode()
+
+Executing CursorHold Auto commands for "*"
+autocommand call s:OnCursorHold()
+
+
+Executing BufUnload Auto commands for "*"
+autocommand call s:OnBufferUnload( expand( '<afile>:p' ) )
+
+Executing BufUnload Auto commands for "*"
+autocommand call s:OnBufferUnload( expand( '<afile>:p' ) )
+
+Writing viminfo file "/src/misc/.viminfo"
+Executing VimLeave Auto commands for "*"
+autocommand call s:OnVimLeave()
+
+No matching autocommands
+"foo.cc:4" [New File]
+No matching autocommands
+No matching autocommands
+"functor.cc:3" [New File]
+No matching autocommands
+0
+
+No matching autocommands
+"foo.cc:4" [New File]
+No matching autocommands
+No matching autocommands
+"functor.cc:3" [New File]
+No matching autocommands
+0
+
+
+No matching autocommands
+"editing.txt" 
+"editing.txt" [readonly][converted] 1696L, 71116C
+No matching autocommands
+No matching autocommands
+No matching autocommands
+No matching autocommands
+No matching autocommands
+No matching autocommands
+No matching autocommands
+
+
+No matching autocommands
+"eval.txt" 
+"eval.txt" [readonly][converted] 8941L, 345404C
+No matching autocommands
+No matching autocommands
+No matching autocommands
+No matching autocommands
+No matching autocommands
+No matching autocommands
+No matching autocommands
+
+
+No matching autocommands
+"foo.cc:4" [New File]
+No matching autocommands
+No matching autocommands
+"functor.cc:3" [New File]
+No matching autocommands
+Error detected while processing function <SNR>20_startup:
+line    6:
+E486: Pattern not found: handle_arg()
+
+"functor.cc:3" [New file] --No lines in buffer-- (file 2 of 2)
+Error detected while processing function <SNR>20_startup:
+line    6:
+E486: Pattern not found: handle_arg()
+
+No matching autocommands
+"foo.cc:4" [New File]
+No matching autocommands
+No matching autocommands
+"functor.cc:3" [New File]
+No matching autocommands
+Error detected while processing function <SNR>20_startup:
+line    6:
+E486: Pattern not found: handle_arg()
+
+"functor.cc:3" [New file] --No lines in buffer-- (file 2 of 2)
+Error detected while processing function <SNR>20_startup:
+line    6:
+E486: Pattern not found: handle_arg()
+
+No matching autocommands
+"foo.cc:4" [New File]
+No matching autocommands
+No matching autocommands
+"functor.cc:3" [New File]
+No matching autocommands
+foo.cc:4
+
+"functor.cc:3" [New file] --No lines in buffer-- (file 2 of 2)
+functor.cc:3
+"foo.cc:4" [New File]
+
+No matching autocommands
+"foo.cc:4" [New File]
+No matching autocommands
+No matching autocommands
+"functor.cc:3" [New File]
+No matching autocommands
+"foo.cc" 
+"foo.cc" 29L, 923C
+No matching autocommands
+foo.cc
+
+"functor.cc:3" [New file] --No lines in buffer-- (file 2 of 2)
+"functor.cc" 
+"functor.cc" 48L, 530C
+No matching autocommands
+functor.cc
+"foo.cc:4" [New File]
+
+No matching autocommands
+"foo.cc:4" [New File]
+No matching autocommands
+No matching autocommands
+"functor.cc:3" [New File]
+No matching autocommands
+"foo.cc" 
+"foo.cc" 29L, 923C
+No matching autocommands
+foo.cc
+
+"functor.cc:3" [New file] --No lines in buffer-- (file 2 of 2)
+"functor.cc" 
+"functor.cc" 48L, 530C
+No matching autocommands
+functor.cc
+
+No matching autocommands
+"foo.cc:4" [New File]
+No matching autocommands
+No matching autocommands
+"functor.cc:3" [New File]
+No matching autocommands
+
+No matching autocommands
+"foo.cc:4" [New File]
+No matching autocommands
+No matching autocommands
+"functor.cc:3" [New File]
+No matching autocommands
+Error detected while processing function <SNR>20_startup..<SNR>20_handle_arg:
+line    3:
+E121: Undefined variable: fname
+Error detected while processing function <SNR>20_startup..<SNR>20_handle_arg:
+line    3:
+E15: Invalid expression: fname
+
+"functor.cc:3" [New file] --No lines in buffer-- (file 2 of 2)
+Error detected while processing function <SNR>20_startup..<SNR>20_handle_arg:
+line    3:
+E121: Undefined variable: fname
+Error detected while processing function <SNR>20_startup..<SNR>20_handle_arg:
+line    3:
+E15: Invalid expression: fname
+
+No matching autocommands
+"foo.cc:4" [New File]
+No matching autocommands
+No matching autocommands
+"functor.cc:3" [New File]
+No matching autocommands
+
+"functor.cc:3" [New file] --No lines in buffer-- (file 2 of 2)
+
+Error detected while processing /src/misc/.vimrc:
+line   50:
+E518: Unknown option: foldopen=all
+line   51:
+E518: Unknown option: foldclose=all
+line   60:
+E518: Unknown option: nofoldenable
+"foo.cc:4" [New File]
+
+No matching autocommands
+"foo.cc:4" [New File]
+['foo.cc:4', 'foo.cc', '4', '', '', '', '', '', '', '']
+"foo.cc" 
+"foo.cc" 29L, 923C
+No matching autocommands
+No matching autocommands
+No matching autocommands
+
+No matching autocommands
+"foo.cc:10" [New File]
+['foo.cc:10', 'foo.cc', '10', '', '', '', '', '', '', '']
+"foo.cc" 
+"foo.cc" 29L, 923C
+No matching autocommands
+No matching autocommands
+No matching autocommands
+
+No matching autocommands
+"foo.cc:10" [New File]
+['foo.cc:10', 'foo.cc', '10', '', '', '', '', '', '', '']
+"foo.cc" 
+"foo.cc" 29L, 923C
+No matching autocommands
+No matching autocommands
+No matching autocommands
+
+E173: 1 more file to edit
+
+No matching autocommands
+"foo.cc:10" [New File]
+['foo.cc:10', 'foo.cc', '10', '', '', '', '', '', '', '']
+"foo.cc" 
+"foo.cc" 29L, 923C
+No matching autocommands
+No matching autocommands
+No matching autocommands
+
+"functor.cc" 
+"functor.cc" 48L, 530C
+No matching autocommands
+No matching autocommands
+No matching autocommands
+
+No matching autocommands
+"foo.cc:10" [New File]
+['foo.cc:10', 'foo.cc', '10', '', '', '', '', '', '', '']
+No matching autocommands
+No matching autocommands
+"functor.cc" 
+"functor.cc" 48L, 530C
+No matching autocommands
+No matching autocommands
+No matching autocommands
+
+
+No matching autocommands
+"foo.cc:10" [New File]
+"foo.cc" 
+"foo.cc" 29L, 923C
+No matching autocommands
+No matching autocommands
+No matching autocommands
+
+No matching autocommands
+"foo.cc:10" [New File]
+"foo.cc" 
+"foo.cc" 29L, 923C
+No matching autocommands
+"functor.cc" 
+"functor.cc" 48L, 530C
+No matching autocommands
+No matching autocommands
+No matching autocommands
+
+No matching autocommands
+"foo.cc:10" [New File]
+"foo.cc" 
+"foo.cc" 29L, 923C
+No matching autocommands
+"functor.cc" 
+"functor.cc" 48L, 530C
+No matching autocommands
+No matching autocommands
+No matching autocommands
+
+No matching autocommands
+"foo.cc:10" [New File]
+"foo.cc" 
+"foo.cc" 29L, 923C
+No matching autocommands
+No matching autocommands
+No matching autocommands
+"functor.cc" 
+"functor.cc" 48L, 530C
+No matching autocommands
+No matching autocommands
+No matching autocommands
+
+No matching autocommands
+"foo.cc:10" [New File]
+"foo.cc" 
+"foo.cc" 29L, 923C
+No matching autocommands
+No matching autocommands
+No matching autocommands
+
+No matching autocommands
+"foo.cc:10" [New File]
+"foo.cc" 
+"foo.cc" 29L, 923C
+No matching autocommands
+No matching autocommands
+No matching autocommands
+"functor.cc" 
+"functor.cc" 48L, 530C
+No matching autocommands
+No matching autocommands
+No matching autocommands
+
+"foo.cc" 
+"foo.cc" 29L, 923C written
+"foo.cc" 29L, 923C written
+
+No matching autocommands
+"foo.cc:10" [New File]
+"foo.cc" 
+"foo.cc" 29L, 923C
+No matching autocommands
+No matching autocommands
+No matching autocommands
+"functor.cc" 
+"functor.cc" 48L, 530C
+No matching autocommands
+No matching autocommands
+No matching autocommands
