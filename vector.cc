@@ -1,24 +1,39 @@
 #include <iostream>
-#include <vector>
+#include <memory>
 
-int main ()
+#include <gtest/gtest.h>
+
+template <typename T>
+std::vector<T> operator+(const std::vector<T> &A, const std::vector<T> &B)
 {
-  // constructors used in the same order as described above:
-  std::vector<int> first;                                // empty vector of ints
-  std::vector<int> second (4,100);                       // four ints with value 100
-  std::vector<int> third (second.begin(),second.end());  // iterating through second
-  std::vector<int> fourth (third);                       // a copy of third
+    std::vector<T> AB;
+    AB.reserve( A.size() + B.size() );                // preallocate memory
+    AB.insert( AB.end(), A.begin(), A.end() );        // add A;
+    AB.insert( AB.end(), B.begin(), B.end() );        // add B;
+    return AB;
+}
 
-  // the iterator constructor can also be used to construct from arrays:
-  int myints[] = {16,2,77,29};
-  std::vector<int> fifth (myints, myints + sizeof(myints) / sizeof(int) );
+template <typename T>
+std::vector<T> &operator+=(std::vector<T> &A, const std::vector<T> &B)
+{
+    A.reserve( A.size() + B.size() );                // preallocate memory without erase original data
+    A.insert( A.end(), B.begin(), B.end() );         // add B;
+    return A;                                        // here A could be named AB
+}
 
-	myints[0] = 42;
+TEST(vector, trimming)
+{
+	std::vector<char> A(10, 'A');
+	std::vector<char> B(10, 'B');
 
-  std::cout << "The contents of fifth are:";
-  for (std::vector<int>::iterator it = fifth.begin(); it != fifth.end(); ++it)
-    std::cout << ' ' << *it;
-  std::cout << '\n';
+	std::vector<char> C(20);
 
-  return 0;
+	C = A + B;
+
+	C.erase(C.begin(), C.begin()+10);
+
+	for (auto c : C)
+		std::cout << c;
+
+	std::cout << std::endl;
 }

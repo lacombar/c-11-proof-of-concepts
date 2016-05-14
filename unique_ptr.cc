@@ -60,9 +60,30 @@ TEST(unique_ptr, smart_pointer_sync_no_type_leak)
 		std::unique_ptr<int> f(new int[256]);
 	}
 }
-int main(int argc, char *argv[])
-{
-	::testing::InitGoogleTest(&argc, argv);
 
-	return RUN_ALL_TESTS();
+class A
+{
+public:
+	A()
+	{
+		std::cout << __func__ << std::endl;
+	}
+
+	~A()
+	{
+		std::cout << __func__ << std::endl;
+	}
+};
+
+struct nop
+{
+	template <typename T>
+	void operator() (T const &) const noexcept { }
+};
+
+TEST(unique_ptr, testFoo)
+{
+	std::unique_ptr<A, nop> a;
+
+	std::cout << sizeof(std::unique_ptr<A>) << std::endl;
 }
