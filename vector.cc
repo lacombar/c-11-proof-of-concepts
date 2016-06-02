@@ -1,7 +1,4 @@
-#include <iostream>
-#include <memory>
-
-#include <gtest/gtest.h>
+#include "common.h"
 
 template <typename T>
 std::vector<T> operator+(const std::vector<T> &A, const std::vector<T> &B)
@@ -37,3 +34,48 @@ TEST(vector, trimming)
 
 	std::cout << std::endl;
 }
+
+struct B
+{
+	B() = delete;
+};
+
+TEST(vector, no_default_constructor)
+{
+	std::vector<B> b;
+
+	//b.resize(8);
+}
+
+TEST(vector, constructor)
+{
+	std::vector<int> v(10, 100);
+
+	std::cout << v.size() << " " << v[9] <<std::endl;
+}
+
+TEST(vector, reserve)
+{
+	std::vector<int> v;
+
+	v.reserve(42);
+
+	std::cout << v.size() << std::endl;
+
+	v[10] = 1;
+
+	std::cout << v.size() << std::endl;
+}
+
+
+TEST(vector, from_c_array)
+{
+	int a[] = { 0, 1, 2, 3, 4};
+
+	std::vector<int> good{ 0, 1, 2, 3, 4 };
+
+	std::vector<int> test(&a[0], &a[0] + 5);
+
+	EXPECT_EQ(test, good);
+}
+

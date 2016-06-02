@@ -1,7 +1,4 @@
-#include <iostream>
-#include <memory>
-
-#include <gtest/gtest.h>
+#include "common.h"
 
 //class B {};
 
@@ -28,6 +25,11 @@ public:
 		return this->i;
 	}
 
+	operator double()
+	{
+		return 42.0;
+	}
+
 	C0& operator= (__int&& i)
 	{
 		this->i = i;
@@ -42,6 +44,9 @@ TEST(operator, test_basic_user_defined_conversion)
 	C0 c({ 42 });
 
 	__int i(c);
+
+	std::cout << (double)c << std::endl;
+	std::cout << static_cast<double>(c) << std::endl;
 
 	ASSERT_EQ(i.val, 42);
 }
@@ -200,23 +205,29 @@ TEST(operator, base_class_smart_pointer_interraction)
 	std::cout << *_if << std::endl;
 }
 
-
-#if 0
-int main()
+typedef void *g_fn_t;
+void
+g_fn(g_fn_t)
 {
-
-	i = c;
-
-	X x;
-	B& b1 = x;                  // does not call X::operatorB&()
-	B& b2 = static_cast<B&>(x); // does not call X::operatorB&
-	B& b3 = x.operator B&();    // calls X::operator&
-
-	std::cout << &x << std::endl;
-
-	const X x1;
-	const B* b4 = x1.operator const B*();
-
-	std::cout << b4 << std::endl;
 }
-#endif
+
+struct G
+{
+	g_fn_t operator *() { std::cout << "g_fn_t" << std::endl; return nullptr; }
+};
+
+int operator* (G, G*) { std::cout << "oaue" << std::endl; return 42; }
+
+TEST(operator, oaeu)
+{
+//	auto g0 = std::make_shared<G>();
+//	G* pg0 = g.get();
+	//int i = *g1;
+	//std::cout << i << std::endl;
+
+	G g;
+
+	G* g1 = &g;
+
+	g_fn(**g1);
+}

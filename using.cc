@@ -1,24 +1,22 @@
-#include <iostream>
+#include "common.h"
 
 struct Foo
 {
-	int a;
-};
-
-class Foo
-{
-	public:
 	Foo()
 	{
 		std::cout << __func__ << std::endl;
 	}
 };
 
-using foo = Foo;
+struct foo : public Foo
+{
+	foo()
+	{
+		std::cout << __func__ << std::endl;
+	}
+};
 
-int main(int argc, char *argv[])
+TEST(using, foo)
 {
 	foo f;
-
-	return 0;
 }

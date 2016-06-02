@@ -1,7 +1,4 @@
-#include <iostream>
-#include <memory>
-
-#include <gtest/gtest.h>
+#include "common.h"
 
 TEST(unique_ptr, test_reset) {
 	std::unique_ptr<int> p(new int);
@@ -86,4 +83,50 @@ TEST(unique_ptr, testFoo)
 	std::unique_ptr<A, nop> a;
 
 	std::cout << sizeof(std::unique_ptr<A>) << std::endl;
+}
+
+TEST(unique_ptr, vector)
+{
+	std::vector<std::unique_ptr<int>> v;
+
+	v.reserve(10);
+}
+
+TEST(unique_ptr, reassign)
+{
+	auto p = std::make_unique<A>();
+
+	std::cout << "----" << std::endl;
+
+	p = std::make_unique<A>();
+
+	std::cout << "----" << std::endl;
+}
+
+class B
+{
+};
+
+void B_deleter(B* b)
+{
+	std::cout << __func__ << " -> " << b << std::endl;
+}
+
+
+TEST(unique_ptr, free_function_deleter)
+{
+	{
+		std::unique_ptr<B, void(*)(B*)> b((B*)0x42, B_deleter);
+	}
+
+	{
+		std::unique_ptr<B, void(*)(B*)> b(nullptr, B_deleter);
+	}
+
+	{
+		std::unique_ptr<B, void(*)(B*)> b(nullptr, B_deleter);
+
+		b = std::unique_ptr<B, void(*)(B*)>((B*)0x43, B_deleter);
+
+	}
 }

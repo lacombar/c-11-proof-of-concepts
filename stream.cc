@@ -1,5 +1,4 @@
-#include <iostream>
-#include <sstream>
+#include "common.h"
 
 class logstream : public std::ostringstream
 {
@@ -12,7 +11,7 @@ public:
 	}
 };
 
-int main(int argc, char *argv[])
+TEST(stream, foo)
 {
 #if 0
 	logstream l;
@@ -44,6 +43,26 @@ int main(int argc, char *argv[])
 	glambda(ss, "bar", 42);
 
 	std::cout << ss.str();
+}
 
-	return 0;
+
+struct A
+{
+
+};
+
+
+std::ostream& operator<<(std::ostream& os, A* a)
+{
+	os << "bar";
+	return os;
+
+}
+
+TEST(stream, pointer)
+{
+	A a;
+
+	std::cout << &a << std::endl;
+
 }

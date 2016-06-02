@@ -1,9 +1,4 @@
-#include <iostream>
-
-#include <gtest/gtest.h>
-#include <gmock/gmock.h>
-
-#include <memory>
+#include "common.h"
 
 struct __int
 {
@@ -68,7 +63,7 @@ public:
 };
 
 #if 0
-#include <functional>
+#include "functional"
 
 TEST(objects, foo)
 {
@@ -195,7 +190,7 @@ private:
 
 };
 
-#include <type_traits>
+#include "type_traits"
 
 TEST(objects, properties)
 {
@@ -251,7 +246,7 @@ struct N
 	int val;
 };
 
-#include <functional>
+#include "functional"
 
 struct O1
 {
